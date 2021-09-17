@@ -2,17 +2,13 @@
   box-sizing: border-box;
 }
 .wrapper-content{
-  padding: 20px;
+  padding: 50px;
   margin: auto;
-  border: 1px solid black;
   min-width: 340px;
-  width: 100%;max-width: 1100px;
-  border: 1px solid black;
+  width: 60%;
+  max-width: 1100px;
   font-family: sans-serif;
   color:dimgray;  
-}
-.about-user{
-
 }
 .main-photo{
   display: block;
@@ -20,9 +16,7 @@
   width: 150px;
   object-fit: cover;
   object-position: center;
-  /* border: 1px solid gray; */
   border-radius: 50%;
-  /* padding: 4px; */
   margin: auto;
 }
 .full-name{
@@ -37,35 +31,29 @@
   padding: 5px;
   text-align:center;
 }
-.work-posotion{
-  
-}
 .container-work-position{
   padding: 5px;
-
 }
+.wrapper-contacts{
+  text-align: justify;
+}  
 .heading-text{
   display: inline-block;
   font-size: 25px;
   text-transform: capitalize;
 }
-
-.wrapper-img{
-  display: inline-block;
-  /* position:relative;
-  right: 0; */
-}
 .social-link{
   display: inline-block;
-  margin: auto;
+}
+.social-pad{
+  padding-left: 120px;
 }
 .skilled-text{
-  
   line-height: 1.5em;
 }
 .bold-text{
   font-weight: bold;
-
+  color: black;
 }
 .skills{
   display: inline-block;
@@ -74,7 +62,29 @@
   font-size: 25px;
   font-weight: bold;
 }
-/* Дополнительный классы */
+.bold-text-for-h3{
+  color:black;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: bold;
+}
+.user-skills{
+  margin: 20px 0 30px 0;
+  line-height: 2em;
+}
+.databases{
+  list-style: disc;
+  list-style-position: inside;
+  text-indent: 1.5em; 
+}
+.sql{
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  ;
+}
+
+/* additional classes */
 .border-heading{
   border-top: 2px solid dimgray;
   border-bottom: 1px solid dimgray;
@@ -82,4 +92,8 @@
 .padding-heading{
   margin-top: 5px;
   margin-bottom: 10px;
+}
+.heading-h3-text{
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
